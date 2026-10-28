@@ -34,6 +34,18 @@ Jupyter notebooks for analyzing LLM usage and costs from [Langfuse](https://lang
 - **cost.ipynb** — Fetch traces for a date range (IST), compute costs, and summarize usage.
 - **06_langfuse_cost_analysis.ipynb** — Alternate cost analysis workflow.
 
+## Dataset layout (EU `prod-agentUX`)
+
+`SMD` and `APOLLO` datasets were reorganized to:
+
+```text
+CLIENT/{procurement|sourcing|sales|ap}/[functionality]/dataset
+```
+
+Folder and leaf names are `snake_case`; client names stay as-is. `Hello` and `FARSOUND` were left unchanged.
+
+The before→after rename map (dataset IDs preserved) is in [`docs/eu_dataset_cleanup_map.json`](docs/eu_dataset_cleanup_map.json). Update any `get_dataset("...")` callers that still use old names.
+
 ## Usage
 
 Open a notebook in Jupyter or VS Code, set the date range in the config cell, then run all cells. Ensure `LANGFUSE_*` env vars are set so the notebook can connect to Langfuse.

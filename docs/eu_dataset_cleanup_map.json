@@ -1,0 +1,288 @@
+{
+  "project": "prod-agentUX",
+  "projectId": "cmbultmv7000uwk07rl156gl0",
+  "host": "${LANGFUSE_BASE_URL}",
+  "completedAt": "2026-10-28T00:18:38.997037+00:00",
+  "scope": [
+    "SMD",
+    "APOLLO"
+  ],
+  "ignored": [
+    "Hello",
+    "FARSOUND"
+  ],
+  "structure": "CLIENT/{procurement|sourcing|sales|ap}/[functionality]/dataset",
+  "renames": [
+    {
+      "id": "cmvrai88s0092xr07f46w2h92",
+      "before": "SMD/Milestone/GOLD_milestone_evaluator_dataset",
+      "after": "SMD/procurement/milestone/gold_milestone_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmvragsmr007lxr07yczyvvf3",
+      "before": "SMD/Milestone/SMD_milestone_evaluator_dataset_v0",
+      "after": "SMD/procurement/milestone/smd_milestone_evaluator_dataset_v0",
+      "status": "renamed"
+    },
+    {
+      "id": "cmvra4veb006fxr0787o07ru5",
+      "before": "SMD/Dates/GOLD_dates_evaluator_dataset",
+      "after": "SMD/procurement/dates/gold_dates_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmvra3vl90066xr07t74ycff5",
+      "before": "SMD/Dates/SMD_dates_evaluator_dataset_v0",
+      "after": "SMD/procurement/dates/smd_dates_evaluator_dataset_v0",
+      "status": "renamed"
+    },
+    {
+      "id": "cmvr800we003ixr07oy36s2ot",
+      "before": "SMD/Procurement",
+      "after": "SMD/_cleanup/old_empty_procurement",
+      "status": "renamed"
+    },
+    {
+      "id": "cmvqv5j70001ixr078s2uvilr",
+      "before": "SMD/Quantity/temporary_gold",
+      "after": "SMD/procurement/quantity/temporary_gold",
+      "status": "renamed"
+    },
+    {
+      "id": "cmvqsgk2y0009xr07k4e3eohp",
+      "before": "SMD/Quantity/temporary_eval",
+      "after": "SMD/procurement/quantity/temporary_eval",
+      "status": "renamed"
+    },
+    {
+      "id": "cmv7b7cg7000kuy07bg4efw1c",
+      "before": "SMD/Sourcing/Mfg Part Number/GOLD_dataset",
+      "after": "SMD/sourcing/mfg_part_number/gold_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmv7b6tzb000huy07wpgpob18",
+      "before": "SMD/Sourcing/Part Number/GOLD_dataset",
+      "after": "SMD/sourcing/part_number/gold_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmv7b5sdt000duy078rb6qa7n",
+      "before": "SMD/Sourcing/Lead Time/GOLD_dataset",
+      "after": "SMD/sourcing/lead_time/gold_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmv7b3r8o000auy07k04naabl",
+      "before": "SMD/Sourcing/Unit Price/GOLD_dataset",
+      "after": "SMD/sourcing/unit_price/gold_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmv79sir80001uy07egk7sevo",
+      "before": "SMD/Sourcing/Quantity/GOLD_dataset",
+      "after": "SMD/sourcing/quantity/gold_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmlttk0o2001nty07qyc5yexw",
+      "before": "SMD/Sarthak_SMD_First_Test",
+      "after": "SMD/procurement/sarthak_smd_first_test",
+      "status": "renamed"
+    },
+    {
+      "id": "cmlttiv9s001kty07xo8rvd9f",
+      "before": "SMD/Quantity/SMD_quantity_evaluator_dataset_v0",
+      "after": "SMD/procurement/quantity/smd_quantity_evaluator_dataset_v0",
+      "status": "renamed"
+    },
+    {
+      "id": "cmltti5td001hty07xqorkqc5",
+      "before": "SMD/Quantity/GOLD_quantity_evaluator_dataset",
+      "after": "SMD/procurement/quantity/gold_quantity_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmlttgr2k001ety07gln0g2oh",
+      "before": "SMD/Price/GOLD_price_evaluator_dataset",
+      "after": "SMD/procurement/price/gold_price_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmlttg0fc001bty07ep7idx8w",
+      "before": "SMD/Price/SMD_price_evaluator_dataset_v0",
+      "after": "SMD/procurement/price/smd_price_evaluator_dataset_v0",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixl1bar001j1807w8kkp06x",
+      "before": "APOLLO / Split / GOLD_split_evaluator_dataset",
+      "after": "APOLLO/procurement/split/gold_split_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixl12bh001g18074z1h3v3h",
+      "before": "APOLLO / Split / APOLLO_split_evaluator_dataset_v0",
+      "after": "APOLLO/procurement/split/apollo_split_evaluator_dataset_v0",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkzw29001c1807xdh3u0r9",
+      "before": "APOLLO / Tracking / GOLD_shipment_tracking_evaluator_dataset",
+      "after": "APOLLO/procurement/tracking/gold_shipment_tracking_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkzhzv00191807ewfc21vl",
+      "before": "APOLLO / Tracking / APOLLO_shipment_tracking_evaluator_dataset_v0",
+      "after": "APOLLO/procurement/tracking/apollo_shipment_tracking_evaluator_dataset_v0",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkxinq00151807a735fkm0",
+      "before": "APOLLO / Sarthak-APOLLO-First-Test",
+      "after": "APOLLO/procurement/sarthak_apollo_first_test",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkwmb00012180715gj7qhf",
+      "before": "APOLLO / Quantity / GOLD_quantity_evaluator_dataset",
+      "after": "APOLLO/procurement/quantity/gold_quantity_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkvpw4000z18073w5g4wsf",
+      "before": "APOLLO / Quantity / APOLLO_quantity_evaluator_dataset_v0",
+      "after": "APOLLO/procurement/quantity/apollo_quantity_evaluator_dataset_v0",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkt236000u1807h7sbm90r",
+      "before": "APOLLO / Price / GOLD_price_evaluator_dataset",
+      "after": "APOLLO/procurement/price/gold_price_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixksquh000r1807aqgokgws",
+      "before": "APOLLO / Price / APOLLO_price_evaluator_dataset_v0",
+      "after": "APOLLO/procurement/price/apollo_price_evaluator_dataset_v0",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkqzsw000o18077b48ptih",
+      "before": "APOLLO / Milestone / GOLD_milestone_evaluator_dataset",
+      "after": "APOLLO/procurement/milestone/gold_milestone_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkq0a1000l18079pivhsr6",
+      "before": "APOLLO / Milestone / APOLLO_milestone_evaluator_dataset_v0",
+      "after": "APOLLO/procurement/milestone/apollo_milestone_evaluator_dataset_v0",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkp3lm000i1807pf8tgd30",
+      "before": "APOLLO / Dates / GOLD_dates_evaluator_dataset",
+      "after": "APOLLO/procurement/dates/gold_dates_evaluator_dataset",
+      "status": "renamed"
+    },
+    {
+      "id": "cmixkg4kt000118073gd3n22o",
+      "before": "APOLLO / Dates / APOLLO_dates_evaluator_dataset_v0",
+      "after": "APOLLO/procurement/dates/apollo_dates_evaluator_dataset_v0",
+      "status": "renamed"
+    }
+  ],
+  "placeholders": [
+    {
+      "id": "cmvrd0sdz00dkxr07leml50ap",
+      "name": "SMD/sales/sales_order_extractor/_folder",
+      "purpose": "empty folder marker"
+    },
+    {
+      "id": "cmvrd0sno00dnxr0779vj87za",
+      "name": "SMD/sales/sales_order_updater/_folder",
+      "purpose": "empty folder marker"
+    },
+    {
+      "id": "cmvrd0sxa00dqxr078glshelh",
+      "name": "SMD/ap/_folder",
+      "purpose": "empty folder marker"
+    },
+    {
+      "id": "cmvrd0t7700dtxr076dni6p11",
+      "name": "APOLLO/sourcing/_folder",
+      "purpose": "empty folder marker"
+    },
+    {
+      "id": "cmvrd0tht00dwxr07o9wywi8d",
+      "name": "APOLLO/sales/sales_order_extractor/_folder",
+      "purpose": "empty folder marker"
+    },
+    {
+      "id": "cmvrd0tr800dzxr07eb9u1q0l",
+      "name": "APOLLO/sales/sales_order_updater/_folder",
+      "purpose": "empty folder marker"
+    },
+    {
+      "id": "cmvrd0u0k00e2xr07x6irzxc9",
+      "name": "APOLLO/ap/_folder",
+      "purpose": "empty folder marker"
+    }
+  ],
+  "notes": [
+    "Dataset IDs were preserved; only names (folder paths) changed.",
+    "Placeholder datasets named _folder make empty agent/functionality folders visible in the UI. Delete them after real datasets exist.",
+    "SMD/_cleanup/old_empty_procurement is the former empty SMD/Procurement dataset; delete it in the UI when convenient.",
+    "Any SDK/API get_dataset(old_name) callers must switch to the after name."
+  ],
+  "finalTrees": {
+    "SMD": [
+      "SMD/_cleanup/old_empty_procurement",
+      "SMD/ap/_folder",
+      "SMD/procurement/dates/gold_dates_evaluator_dataset",
+      "SMD/procurement/dates/smd_dates_evaluator_dataset_v0",
+      "SMD/procurement/milestone/gold_milestone_evaluator_dataset",
+      "SMD/procurement/milestone/smd_milestone_evaluator_dataset_v0",
+      "SMD/procurement/price/gold_price_evaluator_dataset",
+      "SMD/procurement/price/smd_price_evaluator_dataset_v0",
+      "SMD/procurement/quantity/gold_quantity_evaluator_dataset",
+      "SMD/procurement/quantity/smd_quantity_evaluator_dataset_v0",
+      "SMD/procurement/quantity/temporary_eval",
+      "SMD/procurement/quantity/temporary_gold",
+      "SMD/procurement/sarthak_smd_first_test",
+      "SMD/sales/sales_order_extractor/_folder",
+      "SMD/sales/sales_order_updater/_folder",
+      "SMD/sourcing/lead_time/gold_dataset",
+      "SMD/sourcing/mfg_part_number/gold_dataset",
+      "SMD/sourcing/part_number/gold_dataset",
+      "SMD/sourcing/quantity/gold_dataset",
+      "SMD/sourcing/unit_price/gold_dataset"
+    ],
+    "APOLLO": [
+      "APOLLO/ap/_folder",
+      "APOLLO/procurement/dates/apollo_dates_evaluator_dataset_v0",
+      "APOLLO/procurement/dates/gold_dates_evaluator_dataset",
+      "APOLLO/procurement/milestone/apollo_milestone_evaluator_dataset_v0",
+      "APOLLO/procurement/milestone/gold_milestone_evaluator_dataset",
+      "APOLLO/procurement/price/apollo_price_evaluator_dataset_v0",
+      "APOLLO/procurement/price/gold_price_evaluator_dataset",
+      "APOLLO/procurement/quantity/apollo_quantity_evaluator_dataset_v0",
+      "APOLLO/procurement/quantity/gold_quantity_evaluator_dataset",
+      "APOLLO/procurement/sarthak_apollo_first_test",
+      "APOLLO/procurement/split/apollo_split_evaluator_dataset_v0",
+      "APOLLO/procurement/split/gold_split_evaluator_dataset",
+      "APOLLO/procurement/tracking/apollo_shipment_tracking_evaluator_dataset_v0",
+      "APOLLO/procurement/tracking/gold_shipment_tracking_evaluator_dataset",
+      "APOLLO/sales/sales_order_extractor/_folder",
+      "APOLLO/sales/sales_order_updater/_folder",
+      "APOLLO/sourcing/_folder"
+    ]
+  },
+  "untouchedCounts": {
+    "FARSOUND": 17,
+    "Hello": 1
+  },
+  "hostNote": "EU Langfuse instance URL from LANGFUSE_BASE_URL / LANGFUSE_HOST env."
+}
