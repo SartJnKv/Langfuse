@@ -1,43 +1,46 @@
-# Langfuse Cost Analysis
+# Langfuse
 
-Jupyter notebooks for analyzing LLM usage and costs from [Langfuse](https://langfuse.com) (self-hosted at `langfuse.kavida.ai`).
+Cost-analysis notebooks and a file backup of the Langfuse datasets.
 
-## Setup
+## Layout
 
-1. **Clone** (if needed):
-   ```bash
-   git clone https://github.com/SartJnKv/Langfuse.git
-   cd Langfuse
-   ```
+- `notebooks/` — cost analysis notebooks. They read `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY`, and `LANGFUSE_HOST` (or `LANGFUSE_BASE_URL`) from the environment.
+- `Datasets/EU/` — datasets from the EU instance.
+- `Datasets/US/Preprod/` — datasets from the US preprod instance.
+- `Datasets/US/Prod/` — datasets from the US prod instance.
+- `scripts/export_langfuse_datasets.py` — refreshes `Datasets/` from the three instances.
 
-2. **Create a virtual environment** (recommended):
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate   # Windows
-   # source .venv/bin/activate   # macOS/Linux
-   ```
+Dataset names that contain `/` are stored as nested folders. Each dataset folder has:
 
-3. **Install dependencies**:
-   ```bash
-   pip install langfuse tqdm
-   ```
+- `dataset.json` — dataset record, project, and item count
+- `items.jsonl` — one dataset item per line
 
-4. **Configure credentials** (do not commit keys). Set environment variables:
-   - `LANGFUSE_PUBLIC_KEY` — your Langfuse public key (`pk-lf-...`)
-   - `LANGFUSE_SECRET_KEY` — your Langfuse secret key (`sk-lf-...`)
-   - `LANGFUSE_HOST` — e.g. `https://langfuse.kavida.ai` or `https://cloud.langfuse.com`
+PDFs attached to items are stored under that instance's `media/` folder. Item records point at those files with `localFile` and do not keep the short-lived download URL.
 
-   Or create a `.env` file (ignored by git) and load it before running the notebook.
+`Datasets/catalog.json` is the index of the latest export.
 
-## Notebooks
+## Instances
 
-- **cost.ipynb** — Fetch traces for a date range (IST), compute costs, and summarize usage.
-- **06_langfuse_cost_analysis.ipynb** — Alternate cost analysis workflow.
+| Folder | Environment variables | Host | Project |
+| --- | --- | --- | --- |
+| `Datasets/EU` | `LANGFUSE_BASE_URL`, `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` | `eu-langfuse.kavida.ai` | `prod-agentUX` |
+| `Datasets/US/Preprod` | `US_PREPROD_LANGFUSE_BASE_URL`, `US_PREPROD_LANGFUSE_PUBLIC_KEY`, `US_PREPROD_LANGFUSE_SECRET_KEY` | `langfuse.kavida.ai` | `preprod-agentux` |
+| `Datasets/US/Prod` | `US_PROD_LANGFUSE_BASE_URL`, `US_PROD_LANGFUSE_PUBLIC_KEY`, `US_PROD_LANGFUSE_SECRET_KEY` | set by `US_PROD_LANGFUSE_BASE_URL` | whichever project those keys belong to |
 
-## Usage
+Do not commit API keys. Keep them in the environment or a gitignored `.env` file.
 
-Open a notebook in Jupyter or VS Code, set the date range in the config cell, then run all cells. Ensure `LANGFUSE_*` env vars are set so the notebook can connect to Langfuse.
+## Refresh the backup
 
-## License
+```bash
+python scripts/export_langfuse_datasets.py
+```
 
-Use as needed for your organization.
+The script uses only the Python standard library. A missing credential set is recorded in that instance's `export-status.json` and the other instances are still exported.
+
+## Latest export
+
+Exported at 3:57 AM IST on 3 November 2026.
+
+- EU: 56 datasets, 1,045 items, 197 PDF attachments
+- US Preprod: connected, 0 datasets
+- US Prod: not exported. `US_PROD_LANGFUSE_BASE_URL`, `US_PROD_LANGFUSE_PUBLIC_KEY`, and `US_PROD_LANGFUSE_SECRET_KEY` were not set in this environment

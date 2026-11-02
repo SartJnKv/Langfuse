@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "APOLLO/procurement/price/gold_price_evaluator_dataset",
+    "description": "Mixed set.",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2025-12-08T20:00:24.018Z",
+    "updatedAt": "2026-10-28T00:11:59.061Z",
+    "id": "cmixkt236000u1807h7sbm90r"
+  },
+  "itemCount": 33,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}

@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "APOLLO/procurement/tracking/apollo_shipment_tracking_evaluator_dataset_v0",
+    "description": "Pure negative set.",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2025-12-08T20:05:24.572Z",
+    "updatedAt": "2026-10-28T00:11:57.724Z",
+    "id": "cmixkzhzv00191807ewfc21vl"
+  },
+  "itemCount": 9,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}

@@ -1,0 +1,26 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "APOLLO/procurement/quantity/gold_quantity_evaluator_dataset",
+    "description": "Apollo E9 gold set for order_qty (max 20). Mixed labeled cases for auto-push eval.",
+    "metadata": {
+      "field": "order_qty",
+      "purpose": "apollo_e9_auto_push_eval",
+      "client_id": "68b1adb1fb97ca79d7dbe162",
+      "max_items": 20
+    },
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2025-12-08T20:03:10.188Z",
+    "updatedAt": "2026-10-28T00:11:58.390Z",
+    "id": "cmixkwmb00012180715gj7qhf"
+  },
+  "itemCount": 35,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}

@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "FARSOUND/Sarthak_FARSOUND_First_Test",
+    "description": "made by Sarthak",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2025-11-26T17:56:53.712Z",
+    "updatedAt": "2026-02-19T18:41:00.531Z",
+    "id": "cmigb409c0013xy07azjnpwr7"
+  },
+  "itemCount": 30,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}

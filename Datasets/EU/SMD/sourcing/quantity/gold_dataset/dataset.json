@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "SMD/sourcing/quantity/gold_dataset",
+    "description": "made by Sarthak",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2026-10-13T22:46:12.981Z",
+    "updatedAt": "2026-10-28T00:11:54.732Z",
+    "id": "cmv79sir80001uy07egk7sevo"
+  },
+  "itemCount": 47,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}

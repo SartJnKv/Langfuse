@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "FARSOUND/Milestone/FARSOUND_milestone_evaluator_dataset_v0",
+    "description": "Pure negative set.",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2025-11-26T17:40:07.077Z",
+    "updatedAt": "2026-02-19T18:39:27.131Z",
+    "id": "cmigaifj8000cxy07pww7rzza"
+  },
+  "itemCount": 14,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}
