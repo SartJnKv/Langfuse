@@ -415,10 +415,40 @@
         "id": "cmmd05w33000n7r07vcixfw33",
         "name": "preprod-agentux"
       },
-      "datasetCount": 0,
-      "itemCount": 0,
+      "datasetCount": 4,
+      "itemCount": 720,
       "removedStale": [],
-      "datasets": []
+      "datasets": [
+        {
+          "name": "AMSAFE/sales/sales_order_extractor/gold_line_dataset",
+          "id": "cmvzvdqc600a77h08cbqvrnh8",
+          "itemCount": 240,
+          "updatedAt": "2026-11-02T23:08:07.446Z",
+          "path": "US/Preprod/AMSAFE/sales/sales_order_extractor/gold_line_dataset"
+        },
+        {
+          "name": "AMSAFE/sales/sales_order_extractor/gold_header_dataset",
+          "id": "cmvzvdq7b00a47h08wk7zfhlb",
+          "itemCount": 120,
+          "updatedAt": "2026-11-02T23:08:07.271Z",
+          "path": "US/Preprod/AMSAFE/sales/sales_order_extractor/gold_header_dataset"
+        },
+        {
+          "name": "AMSAFE/sales/sales_order_extractor/line_dataset_v0",
+          "id": "cmvzuv7wq00057h084xwlyq6u",
+          "itemCount": 240,
+          "updatedAt": "2026-11-02T23:05:58.449Z",
+          "path": "US/Preprod/AMSAFE/sales/sales_order_extractor/line_dataset_v0"
+        },
+        {
+          "name": "AMSAFE/sales/sales_order_extractor/header_dataset_v0",
+          "id": "cmvzuv7sm00094h077enfcagv",
+          "itemCount": 120,
+          "updatedAt": "2026-11-02T23:05:58.405Z",
+          "path": "US/Preprod/AMSAFE/sales/sales_order_extractor/header_dataset_v0"
+        }
+      ],
+      "exportedAt": "2026-11-02T23:33:42Z"
     },
     {
       "label": "US Prod",

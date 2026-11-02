@@ -1,0 +1,28 @@
+{
+  "instance": "US Preprod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "cmmd05w33000n7r07vcixfw33",
+    "name": "preprod-agentux"
+  },
+  "dataset": {
+    "name": "AMSAFE/sales/sales_order_extractor/gold_line_dataset",
+    "description": "AMSAFE Sales Champion POExtraction lines, gold set. One item per extracted line. Mix of corrected POs and POs with no correction. Expected output is po_number plus a one-element line_items array.",
+    "metadata": {
+      "agent": "sales_order_extractor",
+      "slice": "line",
+      "split": "gold",
+      "client": "AMSAFE",
+      "module": "POExtraction",
+      "environment": "preprod"
+    },
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmmd05w33000n7r07vcixfw33",
+    "createdAt": "2026-11-02T23:08:07.446Z",
+    "updatedAt": "2026-11-02T23:08:07.446Z",
+    "id": "cmvzvdqc600a77h08cbqvrnh8"
+  },
+  "itemCount": 240,
+  "exportedAt": "2026-11-02T23:33:42Z"
+}
