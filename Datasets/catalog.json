@@ -12,14 +12,6 @@
       "datasetCount": 56,
       "itemCount": 1045,
       "removedStale": [],
-      "datasetsWithMedia": [
-        "SMD/sourcing/mfg_part_number/gold_dataset",
-        "SMD/sourcing/part_number/gold_dataset",
-        "SMD/sourcing/lead_time/gold_dataset",
-        "SMD/sourcing/unit_price/gold_dataset",
-        "SMD/sourcing/quantity/gold_dataset"
-      ],
-      "mediaFiles": 197,
       "datasets": [
         {
           "name": "APOLLO_misc / Quantity / OPTIMIZER_CONTRIB_quantity_dataset",
@@ -426,8 +418,6 @@
       "datasetCount": 0,
       "itemCount": 0,
       "removedStale": [],
-      "datasetsWithMedia": [],
-      "mediaFiles": 0,
       "datasets": []
     },
     {

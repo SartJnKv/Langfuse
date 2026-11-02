@@ -15,7 +15,7 @@ Dataset names that contain `/` are stored as nested folders. Each dataset folder
 - `dataset.json` — dataset record, project, and item count
 - `items.jsonl` — one dataset item per line
 
-PDFs attached to items are stored under that instance's `media/` folder. Item records point at those files with `localFile` and do not keep the short-lived download URL.
+Dataset items are stored as JSON only. PDFs and other media files are not written into this repo.
 
 `Datasets/catalog.json` is the index of the latest export.
 
@@ -41,6 +41,6 @@ The script uses only the Python standard library. A missing credential set is re
 
 Exported at 3:57 AM IST on 3 November 2026.
 
-- EU: 56 datasets, 1,045 items, 197 PDF attachments
-- US Preprod: connected, 0 datasets
-- US Prod: not exported. `US_PROD_LANGFUSE_BASE_URL`, `US_PROD_LANGFUSE_PUBLIC_KEY`, and `US_PROD_LANGFUSE_SECRET_KEY` were not set in this environment
+- EU (`prod-agentUX`): 56 datasets, 1,045 items. No dataset name contains SONIC.
+- US Preprod (`preprod-agentux`): connected, 0 datasets.
+- US Prod: not exported. `US_PROD_LANGFUSE_BASE_URL`, `US_PROD_LANGFUSE_PUBLIC_KEY`, and `US_PROD_LANGFUSE_SECRET_KEY` are not set in this environment, so datasets on that instance, including SONIC, could not be read.

@@ -28,6 +28,13 @@ Thumbs.db
 *.swp
 *.swo
 
-# Output / data (optional: uncomment if you don't want to track)
-# *.csv
-# output/
+# Dataset attachments stay out of git
+Datasets/**/media/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp4
+*.mp3
