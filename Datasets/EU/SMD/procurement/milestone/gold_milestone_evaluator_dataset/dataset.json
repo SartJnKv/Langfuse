@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "SMD/procurement/milestone/gold_milestone_evaluator_dataset",
+    "description": "Mixed set.",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2026-10-27T23:01:35.932Z",
+    "updatedAt": "2026-10-28T00:11:51.052Z",
+    "id": "cmvrai88s0092xr07f46w2h92"
+  },
+  "itemCount": 102,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}

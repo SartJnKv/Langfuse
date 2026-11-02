@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "SMD/procurement/dates/smd_dates_evaluator_dataset_v0",
+    "description": null,
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2026-10-27T22:50:26.349Z",
+    "updatedAt": "2026-10-28T00:11:52.059Z",
+    "id": "cmvra3vl90066xr07t74ycff5"
+  },
+  "itemCount": 5,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}

@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "FARSOUND/Milestone/GOLD_milestone_evaluator_dataset",
+    "description": "Mixed set by QA",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2025-12-03T20:09:14.805Z",
+    "updatedAt": "2026-02-19T18:39:19.379Z",
+    "id": "cmiqfx6b9001gxy07k7citqj0"
+  },
+  "itemCount": 30,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}

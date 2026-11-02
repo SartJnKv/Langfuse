@@ -1,0 +1,446 @@
+{
+  "exportedAt": "2026-11-02T22:27:02Z",
+  "instances": [
+    {
+      "label": "EU",
+      "ok": true,
+      "host": "eu-langfuse.kavida.ai",
+      "project": {
+        "id": "cmbultmv7000uwk07rl156gl0",
+        "name": "prod-agentUX"
+      },
+      "datasetCount": 56,
+      "itemCount": 1045,
+      "removedStale": [],
+      "datasetsWithMedia": [
+        "SMD/sourcing/mfg_part_number/gold_dataset",
+        "SMD/sourcing/part_number/gold_dataset",
+        "SMD/sourcing/lead_time/gold_dataset",
+        "SMD/sourcing/unit_price/gold_dataset",
+        "SMD/sourcing/quantity/gold_dataset"
+      ],
+      "mediaFiles": 197,
+      "datasets": [
+        {
+          "name": "APOLLO_misc / Quantity / OPTIMIZER_CONTRIB_quantity_dataset",
+          "id": "cmvtr5d24000nww07tdgjqaku",
+          "itemCount": 3,
+          "updatedAt": "2026-11-02T09:34:36.383Z",
+          "path": "EU/APOLLO_misc/Quantity/OPTIMIZER_CONTRIB_quantity_dataset"
+        },
+        {
+          "name": "APOLLO_misc / Price / OPTIMIZER_CONTRIB_price_dataset",
+          "id": "cmvtr5d0x000kww07ds7igc1o",
+          "itemCount": 3,
+          "updatedAt": "2026-11-02T09:34:51.351Z",
+          "path": "EU/APOLLO_misc/Price/OPTIMIZER_CONTRIB_price_dataset"
+        },
+        {
+          "name": "APOLLO/ap/_folder",
+          "id": "cmvrd0u0k00e2xr07x6irzxc9",
+          "itemCount": 0,
+          "updatedAt": "2026-10-28T00:12:03.189Z",
+          "path": "EU/APOLLO/ap/_folder"
+        },
+        {
+          "name": "APOLLO/sales/sales_order_updater/_folder",
+          "id": "cmvrd0tr800dzxr07eb9u1q0l",
+          "itemCount": 0,
+          "updatedAt": "2026-10-28T00:12:02.853Z",
+          "path": "EU/APOLLO/sales/sales_order_updater/_folder"
+        },
+        {
+          "name": "APOLLO/sales/sales_order_extractor/_folder",
+          "id": "cmvrd0tht00dwxr07o9wywi8d",
+          "itemCount": 0,
+          "updatedAt": "2026-10-28T00:12:02.513Z",
+          "path": "EU/APOLLO/sales/sales_order_extractor/_folder"
+        },
+        {
+          "name": "APOLLO/sourcing/_folder",
+          "id": "cmvrd0t7700dtxr076dni6p11",
+          "itemCount": 0,
+          "updatedAt": "2026-10-28T00:12:02.131Z",
+          "path": "EU/APOLLO/sourcing/_folder"
+        },
+        {
+          "name": "SMD/ap/_folder",
+          "id": "cmvrd0sxa00dqxr078glshelh",
+          "itemCount": 0,
+          "updatedAt": "2026-10-28T00:12:01.775Z",
+          "path": "EU/SMD/ap/_folder"
+        },
+        {
+          "name": "SMD/sales/sales_order_updater/_folder",
+          "id": "cmvrd0sno00dnxr0779vj87za",
+          "itemCount": 0,
+          "updatedAt": "2026-10-28T00:12:01.428Z",
+          "path": "EU/SMD/sales/sales_order_updater/_folder"
+        },
+        {
+          "name": "SMD/sales/sales_order_extractor/_folder",
+          "id": "cmvrd0sdz00dkxr07leml50ap",
+          "itemCount": 0,
+          "updatedAt": "2026-10-28T00:12:01.080Z",
+          "path": "EU/SMD/sales/sales_order_extractor/_folder"
+        },
+        {
+          "name": "SMD/procurement/milestone/gold_milestone_evaluator_dataset",
+          "id": "cmvrai88s0092xr07f46w2h92",
+          "itemCount": 102,
+          "updatedAt": "2026-10-28T00:11:51.052Z",
+          "path": "EU/SMD/procurement/milestone/gold_milestone_evaluator_dataset"
+        },
+        {
+          "name": "SMD/procurement/milestone/smd_milestone_evaluator_dataset_v0",
+          "id": "cmvragsmr007lxr07yczyvvf3",
+          "itemCount": 49,
+          "updatedAt": "2026-10-28T00:11:51.386Z",
+          "path": "EU/SMD/procurement/milestone/smd_milestone_evaluator_dataset_v0"
+        },
+        {
+          "name": "SMD/procurement/dates/gold_dates_evaluator_dataset",
+          "id": "cmvra4veb006fxr0787o07ru5",
+          "itemCount": 36,
+          "updatedAt": "2026-10-28T00:11:51.724Z",
+          "path": "EU/SMD/procurement/dates/gold_dates_evaluator_dataset"
+        },
+        {
+          "name": "SMD/procurement/dates/smd_dates_evaluator_dataset_v0",
+          "id": "cmvra3vl90066xr07t74ycff5",
+          "itemCount": 5,
+          "updatedAt": "2026-10-28T00:11:52.059Z",
+          "path": "EU/SMD/procurement/dates/smd_dates_evaluator_dataset_v0"
+        },
+        {
+          "name": "SMD/procurement/quantity/temporary_gold",
+          "id": "cmvqv5j70001ixr078s2uvilr",
+          "itemCount": 47,
+          "updatedAt": "2026-10-28T00:11:52.723Z",
+          "path": "EU/SMD/procurement/quantity/temporary_gold"
+        },
+        {
+          "name": "SMD/procurement/quantity/temporary_eval",
+          "id": "cmvqsgk2y0009xr07k4e3eohp",
+          "itemCount": 20,
+          "updatedAt": "2026-10-28T00:11:53.056Z",
+          "path": "EU/SMD/procurement/quantity/temporary_eval"
+        },
+        {
+          "name": "SMD/sourcing/mfg_part_number/gold_dataset",
+          "id": "cmv7b7cg7000kuy07bg4efw1c",
+          "itemCount": 47,
+          "updatedAt": "2026-10-28T00:11:53.398Z",
+          "path": "EU/SMD/sourcing/mfg_part_number/gold_dataset"
+        },
+        {
+          "name": "SMD/sourcing/part_number/gold_dataset",
+          "id": "cmv7b6tzb000huy07wpgpob18",
+          "itemCount": 47,
+          "updatedAt": "2026-10-28T00:11:53.728Z",
+          "path": "EU/SMD/sourcing/part_number/gold_dataset"
+        },
+        {
+          "name": "SMD/sourcing/lead_time/gold_dataset",
+          "id": "cmv7b5sdt000duy078rb6qa7n",
+          "itemCount": 46,
+          "updatedAt": "2026-10-28T00:11:54.066Z",
+          "path": "EU/SMD/sourcing/lead_time/gold_dataset"
+        },
+        {
+          "name": "SMD/sourcing/unit_price/gold_dataset",
+          "id": "cmv7b3r8o000auy07k04naabl",
+          "itemCount": 50,
+          "updatedAt": "2026-10-28T00:11:54.400Z",
+          "path": "EU/SMD/sourcing/unit_price/gold_dataset"
+        },
+        {
+          "name": "SMD/sourcing/quantity/gold_dataset",
+          "id": "cmv79sir80001uy07egk7sevo",
+          "itemCount": 47,
+          "updatedAt": "2026-10-28T00:11:54.732Z",
+          "path": "EU/SMD/sourcing/quantity/gold_dataset"
+        },
+        {
+          "name": "FARSOUND/Scenarios/PRECIXinc-Email-Body/Positive_evaluator_data_v0",
+          "id": "cmpo48g7z0012rs07k046gdd9",
+          "itemCount": 2,
+          "updatedAt": "2026-05-27T13:44:29.471Z",
+          "path": "EU/FARSOUND/Scenarios/PRECIXinc-Email-Body/Positive_evaluator_data_v0"
+        },
+        {
+          "name": "FARSOUND/Scenarios/PRECIXinc-Email-Body/Negative_evaluator_data_v0",
+          "id": "cmpo473gc000yrs07ixwimpyj",
+          "itemCount": 0,
+          "updatedAt": "2026-05-27T13:43:48.387Z",
+          "path": "EU/FARSOUND/Scenarios/PRECIXinc-Email-Body/Negative_evaluator_data_v0"
+        },
+        {
+          "name": "FARSOUND/Scenarios/ALAcorp-email-body/negative_evaluator_data_v0",
+          "id": "cmpo3lbk6000prs07bkqb01f1",
+          "itemCount": 0,
+          "updatedAt": "2026-05-27T13:28:24.657Z",
+          "path": "EU/FARSOUND/Scenarios/ALAcorp-email-body/negative_evaluator_data_v0"
+        },
+        {
+          "name": "FARSOUND/Scenarios/ALAcorp-email-body/positive_evaluator_data_v0",
+          "id": "cmpo3dht3000jrs07j5e1nmif",
+          "itemCount": 3,
+          "updatedAt": "2026-05-27T13:28:12.931Z",
+          "path": "EU/FARSOUND/Scenarios/ALAcorp-email-body/positive_evaluator_data_v0"
+        },
+        {
+          "name": "SMD/procurement/sarthak_smd_first_test",
+          "id": "cmlttk0o2001nty07qyc5yexw",
+          "itemCount": 37,
+          "updatedAt": "2026-10-28T00:11:55.065Z",
+          "path": "EU/SMD/procurement/sarthak_smd_first_test"
+        },
+        {
+          "name": "SMD/procurement/quantity/smd_quantity_evaluator_dataset_v0",
+          "id": "cmlttiv9s001kty07xo8rvd9f",
+          "itemCount": 9,
+          "updatedAt": "2026-10-28T00:11:55.396Z",
+          "path": "EU/SMD/procurement/quantity/smd_quantity_evaluator_dataset_v0"
+        },
+        {
+          "name": "SMD/procurement/quantity/gold_quantity_evaluator_dataset",
+          "id": "cmltti5td001hty07xqorkqc5",
+          "itemCount": 23,
+          "updatedAt": "2026-10-28T00:11:55.730Z",
+          "path": "EU/SMD/procurement/quantity/gold_quantity_evaluator_dataset"
+        },
+        {
+          "name": "SMD/procurement/price/gold_price_evaluator_dataset",
+          "id": "cmlttgr2k001ety07gln0g2oh",
+          "itemCount": 21,
+          "updatedAt": "2026-10-28T00:11:56.066Z",
+          "path": "EU/SMD/procurement/price/gold_price_evaluator_dataset"
+        },
+        {
+          "name": "SMD/procurement/price/smd_price_evaluator_dataset_v0",
+          "id": "cmlttg0fc001bty07ep7idx8w",
+          "itemCount": 8,
+          "updatedAt": "2026-10-28T00:11:56.399Z",
+          "path": "EU/SMD/procurement/price/smd_price_evaluator_dataset_v0"
+        },
+        {
+          "name": "Hello/world/datset",
+          "id": "cmkxrd4g300gtvr07ex0pnojf",
+          "itemCount": 0,
+          "updatedAt": "2026-01-28T08:23:22.564Z",
+          "path": "EU/Hello/world/datset"
+        },
+        {
+          "name": "FARSOUND/Split/GOLD_split_evaluator_dataset",
+          "id": "cmixl3lux001q1807e3hns95l",
+          "itemCount": 0,
+          "updatedAt": "2026-02-19T18:38:29.024Z",
+          "path": "EU/FARSOUND/Split/GOLD_split_evaluator_dataset"
+        },
+        {
+          "name": "FARSOUND/Split/FARSOUND_split_evaluator_dataset_v0",
+          "id": "cmixl39n2001n1807m1o33wtk",
+          "itemCount": 0,
+          "updatedAt": "2026-02-19T18:38:39.167Z",
+          "path": "EU/FARSOUND/Split/FARSOUND_split_evaluator_dataset_v0"
+        },
+        {
+          "name": "APOLLO/procurement/split/gold_split_evaluator_dataset",
+          "id": "cmixl1bar001j1807w8kkp06x",
+          "itemCount": 0,
+          "updatedAt": "2026-10-28T00:11:56.728Z",
+          "path": "EU/APOLLO/procurement/split/gold_split_evaluator_dataset"
+        },
+        {
+          "name": "APOLLO/procurement/split/apollo_split_evaluator_dataset_v0",
+          "id": "cmixl12bh001g18074z1h3v3h",
+          "itemCount": 0,
+          "updatedAt": "2026-10-28T00:11:57.056Z",
+          "path": "EU/APOLLO/procurement/split/apollo_split_evaluator_dataset_v0"
+        },
+        {
+          "name": "APOLLO/procurement/tracking/gold_shipment_tracking_evaluator_dataset",
+          "id": "cmixkzw29001c1807xdh3u0r9",
+          "itemCount": 20,
+          "updatedAt": "2026-10-28T00:11:57.389Z",
+          "path": "EU/APOLLO/procurement/tracking/gold_shipment_tracking_evaluator_dataset"
+        },
+        {
+          "name": "APOLLO/procurement/tracking/apollo_shipment_tracking_evaluator_dataset_v0",
+          "id": "cmixkzhzv00191807ewfc21vl",
+          "itemCount": 9,
+          "updatedAt": "2026-10-28T00:11:57.724Z",
+          "path": "EU/APOLLO/procurement/tracking/apollo_shipment_tracking_evaluator_dataset_v0"
+        },
+        {
+          "name": "APOLLO/procurement/sarthak_apollo_first_test",
+          "id": "cmixkxinq00151807a735fkm0",
+          "itemCount": 13,
+          "updatedAt": "2026-10-28T00:11:58.057Z",
+          "path": "EU/APOLLO/procurement/sarthak_apollo_first_test"
+        },
+        {
+          "name": "APOLLO/procurement/quantity/gold_quantity_evaluator_dataset",
+          "id": "cmixkwmb00012180715gj7qhf",
+          "itemCount": 35,
+          "updatedAt": "2026-10-28T00:11:58.390Z",
+          "path": "EU/APOLLO/procurement/quantity/gold_quantity_evaluator_dataset"
+        },
+        {
+          "name": "APOLLO/procurement/quantity/apollo_quantity_evaluator_dataset_v0",
+          "id": "cmixkvpw4000z18073w5g4wsf",
+          "itemCount": 14,
+          "updatedAt": "2026-10-28T00:11:58.727Z",
+          "path": "EU/APOLLO/procurement/quantity/apollo_quantity_evaluator_dataset_v0"
+        },
+        {
+          "name": "APOLLO/procurement/price/gold_price_evaluator_dataset",
+          "id": "cmixkt236000u1807h7sbm90r",
+          "itemCount": 33,
+          "updatedAt": "2026-10-28T00:11:59.061Z",
+          "path": "EU/APOLLO/procurement/price/gold_price_evaluator_dataset"
+        },
+        {
+          "name": "APOLLO/procurement/price/apollo_price_evaluator_dataset_v0",
+          "id": "cmixksquh000r1807aqgokgws",
+          "itemCount": 24,
+          "updatedAt": "2026-10-28T00:11:59.393Z",
+          "path": "EU/APOLLO/procurement/price/apollo_price_evaluator_dataset_v0"
+        },
+        {
+          "name": "APOLLO/procurement/milestone/gold_milestone_evaluator_dataset",
+          "id": "cmixkqzsw000o18077b48ptih",
+          "itemCount": 83,
+          "updatedAt": "2026-10-28T00:11:59.730Z",
+          "path": "EU/APOLLO/procurement/milestone/gold_milestone_evaluator_dataset"
+        },
+        {
+          "name": "APOLLO/procurement/milestone/apollo_milestone_evaluator_dataset_v0",
+          "id": "cmixkq0a1000l18079pivhsr6",
+          "itemCount": 11,
+          "updatedAt": "2026-10-28T00:12:00.064Z",
+          "path": "EU/APOLLO/procurement/milestone/apollo_milestone_evaluator_dataset_v0"
+        },
+        {
+          "name": "APOLLO/procurement/dates/gold_dates_evaluator_dataset",
+          "id": "cmixkp3lm000i1807pf8tgd30",
+          "itemCount": 54,
+          "updatedAt": "2026-10-28T00:12:00.407Z",
+          "path": "EU/APOLLO/procurement/dates/gold_dates_evaluator_dataset"
+        },
+        {
+          "name": "FARSOUND/Shipment/FARSOUND_shipment_tracking_evaluator_dataset_v0",
+          "id": "cmixkkx8m000b18072p65q0sk",
+          "itemCount": 13,
+          "updatedAt": "2026-02-19T18:38:56.013Z",
+          "path": "EU/FARSOUND/Shipment/FARSOUND_shipment_tracking_evaluator_dataset_v0"
+        },
+        {
+          "name": "APOLLO/procurement/dates/apollo_dates_evaluator_dataset_v0",
+          "id": "cmixkg4kt000118073gd3n22o",
+          "itemCount": 9,
+          "updatedAt": "2026-10-28T00:12:00.743Z",
+          "path": "EU/APOLLO/procurement/dates/apollo_dates_evaluator_dataset_v0"
+        },
+        {
+          "name": "FARSOUND/Milestone/GOLD_milestone_evaluator_dataset",
+          "id": "cmiqfx6b9001gxy07k7citqj0",
+          "itemCount": 30,
+          "updatedAt": "2026-02-19T18:39:19.379Z",
+          "path": "EU/FARSOUND/Milestone/GOLD_milestone_evaluator_dataset"
+        },
+        {
+          "name": "FARSOUND/Dates/GOLD_dates_evaluator_dataset",
+          "id": "cmiqfumhq001cxy07xuhq4kj6",
+          "itemCount": 20,
+          "updatedAt": "2026-01-28T08:24:47.333Z",
+          "path": "EU/FARSOUND/Dates/GOLD_dates_evaluator_dataset"
+        },
+        {
+          "name": "FARSOUND/Sarthak_FARSOUND_First_Test",
+          "id": "cmigb409c0013xy07azjnpwr7",
+          "itemCount": 30,
+          "updatedAt": "2026-02-19T18:41:00.531Z",
+          "path": "EU/FARSOUND/Sarthak_FARSOUND_First_Test"
+        },
+        {
+          "name": "FARSOUND/Shipment/GOLD_shipment_tracking_evaluator_dataset",
+          "id": "cmigan4o9000rxy07byendasy",
+          "itemCount": 14,
+          "updatedAt": "2026-02-19T18:39:06.389Z",
+          "path": "EU/FARSOUND/Shipment/GOLD_shipment_tracking_evaluator_dataset"
+        },
+        {
+          "name": "FARSOUND/Dates/FARSOUND_dates_evaluator_dataset_v0",
+          "id": "cmigalo4l000oxy07mzxbxl65",
+          "itemCount": 5,
+          "updatedAt": "2026-02-19T18:39:38.894Z",
+          "path": "EU/FARSOUND/Dates/FARSOUND_dates_evaluator_dataset_v0"
+        },
+        {
+          "name": "FARSOUND/Price/FARSOUND_price_evaluator_dataset_v0",
+          "id": "cmigajp96000ixy07wlgosrmj",
+          "itemCount": 0,
+          "updatedAt": "2026-02-19T18:39:55.244Z",
+          "path": "EU/FARSOUND/Price/FARSOUND_price_evaluator_dataset_v0"
+        },
+        {
+          "name": "FARSOUND/Price/GOLD_price_evaluator_dataset",
+          "id": "cmigajbn9000fxy07idn8q3s4",
+          "itemCount": 2,
+          "updatedAt": "2026-02-19T18:40:04.309Z",
+          "path": "EU/FARSOUND/Price/GOLD_price_evaluator_dataset"
+        },
+        {
+          "name": "FARSOUND/Milestone/FARSOUND_milestone_evaluator_dataset_v0",
+          "id": "cmigaifj8000cxy07pww7rzza",
+          "itemCount": 14,
+          "updatedAt": "2026-02-19T18:39:27.131Z",
+          "path": "EU/FARSOUND/Milestone/FARSOUND_milestone_evaluator_dataset_v0"
+        },
+        {
+          "name": "FARSOUND/Quantity/GOLD_quantity_evaluator_dataset",
+          "id": "cmigahr7d0009xy07bxhuicbj",
+          "itemCount": 4,
+          "updatedAt": "2026-02-19T18:40:31.536Z",
+          "path": "EU/FARSOUND/Quantity/GOLD_quantity_evaluator_dataset"
+        },
+        {
+          "name": "FARSOUND/Quantity/FARSOUND_quantity_evaluator_dataset_v0",
+          "id": "cmiga1p3p0005xy07t75421gq",
+          "itemCount": 3,
+          "updatedAt": "2026-02-19T18:40:37.919Z",
+          "path": "EU/FARSOUND/Quantity/FARSOUND_quantity_evaluator_dataset_v0"
+        }
+      ]
+    },
+    {
+      "label": "US Preprod",
+      "ok": true,
+      "host": "langfuse.kavida.ai",
+      "project": {
+        "id": "cmmd05w33000n7r07vcixfw33",
+        "name": "preprod-agentux"
+      },
+      "datasetCount": 0,
+      "itemCount": 0,
+      "removedStale": [],
+      "datasetsWithMedia": [],
+      "mediaFiles": 0,
+      "datasets": []
+    },
+    {
+      "label": "US Prod",
+      "ok": false,
+      "datasetCount": 0,
+      "itemCount": 0,
+      "status": {
+        "instance": "US Prod",
+        "exportedAt": "2026-11-02T22:27:02Z",
+        "status": "not_exported",
+        "reason": "Missing environment variables: US_PROD_LANGFUSE_BASE_URL, US_PROD_LANGFUSE_PUBLIC_KEY, US_PROD_LANGFUSE_SECRET_KEY"
+      }
+    }
+  ]
+}

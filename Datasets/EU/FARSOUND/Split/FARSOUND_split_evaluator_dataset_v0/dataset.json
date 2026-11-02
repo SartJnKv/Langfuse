@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "FARSOUND/Split/FARSOUND_split_evaluator_dataset_v0",
+    "description": "Pure negative set.",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2025-12-08T20:08:20.367Z",
+    "updatedAt": "2026-02-19T18:38:39.167Z",
+    "id": "cmixl39n2001n1807m1o33wtk"
+  },
+  "itemCount": 0,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}

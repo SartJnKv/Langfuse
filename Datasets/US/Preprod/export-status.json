@@ -1,0 +1,12 @@
+{
+  "instance": "US Preprod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "cmmd05w33000n7r07vcixfw33",
+    "name": "preprod-agentux"
+  },
+  "exportedAt": "2026-11-02T22:27:02Z",
+  "status": "exported",
+  "datasetCount": 0,
+  "itemCount": 0
+}

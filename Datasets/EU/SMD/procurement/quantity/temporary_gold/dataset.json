@@ -1,0 +1,21 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "SMD/procurement/quantity/temporary_gold",
+    "description": null,
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2026-10-27T15:51:49.356Z",
+    "updatedAt": "2026-10-28T00:11:52.723Z",
+    "id": "cmvqv5j70001ixr078s2uvilr"
+  },
+  "itemCount": 47,
+  "exportedAt": "2026-11-02T22:27:02Z"
+}
