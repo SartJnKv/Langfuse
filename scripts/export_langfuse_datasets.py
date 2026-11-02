@@ -20,7 +20,6 @@ from __future__ import annotations
 import base64
 import json
 import os
-import re
 import shutil
 import sys
 import urllib.parse
@@ -106,47 +105,27 @@ def list_all(client: Client, path: str, params: dict) -> list:
     return rows
 
 
-MEDIA_EXTENSIONS = {
-    "application/pdf": ".pdf",
-    "image/png": ".png",
-    "image/jpeg": ".jpg",
-    "text/plain": ".txt",
-    "text/csv": ".csv",
-}
-
-
-def media_filename(media: dict) -> str:
-    media_id = media.get("mediaId") or ""
-    if not re.fullmatch(r"[A-Za-z0-9_-]+", media_id):
-        raise ValueError(f"Unexpected media id: {media_id!r}")
-    return media_id + MEDIA_EXTENSIONS.get(media.get("contentType") or "", "")
-
-
-def store_media(client_root: Path, item: dict, downloaded: dict[str, str]) -> None:
-    """Save referenced files and drop expiring URLs, which carry session tokens."""
+def strip_media(item: dict) -> None:
+    """Drop file payloads and download URLs. Dataset text stays; binaries do not."""
     for reference in item.get("mediaReferences") or []:
-        media = reference.get("media") or {}
-        media_id = media.get("mediaId")
-        if not media_id:
-            continue
-        filename = media_filename(media)
-        destination = client_root / "media" / filename
-        if media_id not in downloaded:
-            url = media.get("url")
-            if not url:
-                raise RuntimeError(f"Media {media_id} has no download URL")
-            destination.parent.mkdir(parents=True, exist_ok=True)
-            temporary = destination.with_suffix(destination.suffix + ".partial")
-            try:
-                with urllib.request.urlopen(url, timeout=120) as response:
-                    temporary.write_bytes(response.read())
-            except Exception as error:
-                temporary.unlink(missing_ok=True)
-                raise RuntimeError(f"Failed to download media {media_id}: {type(error).__name__}") from None
-            temporary.replace(destination)
-            downloaded[media_id] = str(destination.relative_to(DATASETS_ROOT))
-        media.pop("url", None)
-        media["localFile"] = downloaded[media_id]
+        media = reference.get("media")
+        if isinstance(media, dict):
+            media.pop("url", None)
+            media.pop("localFile", None)
+    for field in ("input", "expectedOutput", "metadata"):
+        _strip_embedded_files(item.get(field))
+
+
+def _strip_embedded_files(value):
+    if isinstance(value, dict):
+        for key, child in list(value.items()):
+            if isinstance(child, str) and (child.startswith("data:") or "X-Amz-Algorithm" in child):
+                value[key] = None
+            else:
+                _strip_embedded_files(child)
+    elif isinstance(value, list):
+        for child in value:
+            _strip_embedded_files(child)
 
 
 def write_json(path: Path, payload: dict) -> None:
@@ -199,15 +178,12 @@ def export_instance(spec: dict, exported_at: str) -> dict:
     expected: set[Path] = set()
     catalog = []
     item_count = 0
-    media_datasets = []
-    downloaded: dict[str, str] = {}
 
     for dataset in datasets:
         name = dataset["name"]
         items = list_all(client, "/api/public/dataset-items", {"datasetName": name})
         for item in items:
-            if item.get("mediaReferences"):
-                store_media(root, item, downloaded)
+            strip_media(item)
         folder = dataset_dir(root, name)
         expected.add(folder)
         record = {
@@ -222,8 +198,6 @@ def export_instance(spec: dict, exported_at: str) -> dict:
         lines = [json.dumps(item, ensure_ascii=False, sort_keys=True) for item in items]
         (folder / "items.jsonl").write_text(("\n".join(lines) + ("\n" if lines else "")), encoding="utf-8")
         item_count += len(items)
-        if any(item.get("mediaReferences") for item in items):
-            media_datasets.append(name)
         catalog.append(
             {
                 "name": name,
@@ -237,11 +211,8 @@ def export_instance(spec: dict, exported_at: str) -> dict:
     removed = remove_stale_datasets(root, expected)
     media_dir = root / "media"
     if media_dir.exists():
-        referenced = set(downloaded)
-        for existing in media_dir.iterdir():
-            if existing.stem not in referenced and existing.is_file():
-                existing.unlink()
-                removed.append(str(existing.relative_to(DATASETS_ROOT)))
+        shutil.rmtree(media_dir)
+        removed.append(str(media_dir.relative_to(DATASETS_ROOT)))
     status_path = root / "export-status.json"
     if datasets:
         if status_path.exists():
@@ -267,8 +238,6 @@ def export_instance(spec: dict, exported_at: str) -> dict:
         "datasetCount": len(datasets),
         "itemCount": item_count,
         "removedStale": removed,
-        "datasetsWithMedia": media_datasets,
-        "mediaFiles": len(downloaded),
         "datasets": catalog,
     }
     print(
