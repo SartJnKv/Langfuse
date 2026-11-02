@@ -42,5 +42,5 @@ The script uses only the Python standard library. A missing credential set is re
 Exported at 3:57 AM IST on 3 November 2026.
 
 - EU (`prod-agentUX`): 56 datasets, 1,045 items. No dataset name contains SONIC.
-- US Preprod (`preprod-agentux`): connected, 0 datasets.
+- US Preprod (`preprod-agentux`): 4 AMSAFE Sales Champion datasets, 720 items, backed up at 5:03 AM IST on 3 November 2026. Header and line, each as `*_dataset_v0` and `gold_*_dataset`, under `Datasets/US/Preprod/AMSAFE/sales/sales_order_extractor/`. Every item is an AgentOps correction (`example_type` `difference`). No PDFs.
 - US Prod: not exported. `US_PROD_LANGFUSE_BASE_URL`, `US_PROD_LANGFUSE_PUBLIC_KEY`, and `US_PROD_LANGFUSE_SECRET_KEY` are not set in this environment, so datasets on that instance, including SONIC, could not be read.

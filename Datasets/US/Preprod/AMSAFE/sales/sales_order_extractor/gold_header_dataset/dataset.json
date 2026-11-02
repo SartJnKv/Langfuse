@@ -1,0 +1,28 @@
+{
+  "instance": "US Preprod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "cmmd05w33000n7r07vcixfw33",
+    "name": "preprod-agentux"
+  },
+  "dataset": {
+    "name": "AMSAFE/sales/sales_order_extractor/gold_header_dataset",
+    "description": "AMSAFE Sales Champion POExtraction header, gold set. Mix of POs AgentOps corrected and POs with no correction. Expected output is the corrected header where a field changed, otherwise the original extraction.",
+    "metadata": {
+      "agent": "sales_order_extractor",
+      "slice": "header",
+      "split": "gold",
+      "client": "AMSAFE",
+      "module": "POExtraction",
+      "environment": "preprod"
+    },
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmmd05w33000n7r07vcixfw33",
+    "createdAt": "2026-11-02T23:08:07.271Z",
+    "updatedAt": "2026-11-02T23:08:07.271Z",
+    "id": "cmvzvdq7b00a47h08wk7zfhlb"
+  },
+  "itemCount": 120,
+  "exportedAt": "2026-11-02T23:33:42Z"
+}
