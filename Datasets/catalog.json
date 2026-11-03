@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-11-03T00:13:21Z",
+  "exportedAt": "2026-11-03T00:34:58Z",
   "instances": [
     {
       "label": "EU",
@@ -435,15 +435,169 @@
         "id": "clz8g147n00071174ghdnxsdx",
         "name": "prod-agentux"
       },
-      "datasetCount": 29,
-      "itemCount": 2315,
+      "datasetCount": 51,
+      "itemCount": 4061,
       "removedStale": [],
       "datasets": [
+        {
+          "name": "SONIC/procurement/tracking/SONIC_shipment_tracking_evaluator_v0",
+          "id": "cmvzyfhu607t74h07o2ssk75c",
+          "itemCount": 17,
+          "updatedAt": "2026-11-03T00:33:28.590Z",
+          "path": "US/Prod/SONIC/procurement/tracking/SONIC_shipment_tracking_evaluator_v0"
+        },
+        {
+          "name": "SONIC/procurement/tracking/SONIC_shipment_tracking_evaluator_dataset_v1",
+          "id": "cmvzyfhps001a7h07mlpah2wp",
+          "itemCount": 202,
+          "updatedAt": "2026-11-03T00:33:28.432Z",
+          "path": "US/Prod/SONIC/procurement/tracking/SONIC_shipment_tracking_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC/procurement/tracking/GOLD_tracking_evaluator_dataset",
+          "id": "cmvzyfhlk00177h07mk3jyoot",
+          "itemCount": 8,
+          "updatedAt": "2026-11-03T00:33:28.281Z",
+          "path": "US/Prod/SONIC/procurement/tracking/GOLD_tracking_evaluator_dataset"
+        },
+        {
+          "name": "SONIC/procurement/split/SONIC_split_evaluator_dataset_v0",
+          "id": "cmvzyfhh600147h07dpe3rv2j",
+          "itemCount": 1,
+          "updatedAt": "2026-11-03T00:33:28.122Z",
+          "path": "US/Prod/SONIC/procurement/split/SONIC_split_evaluator_dataset_v0"
+        },
+        {
+          "name": "SONIC/procurement/Sarthak-First-Test",
+          "id": "cmvzyfhd507t44h076xef53wl",
+          "itemCount": 122,
+          "updatedAt": "2026-11-03T00:33:27.977Z",
+          "path": "US/Prod/SONIC/procurement/Sarthak-First-Test"
+        },
+        {
+          "name": "SONIC/procurement/quantity/SONIC_quantity_evaluator_dataset_v0",
+          "id": "cmvzyfh8r00117h07v4cn9lmx",
+          "itemCount": 27,
+          "updatedAt": "2026-11-03T00:33:27.819Z",
+          "path": "US/Prod/SONIC/procurement/quantity/SONIC_quantity_evaluator_dataset_v0"
+        },
+        {
+          "name": "SONIC/procurement/quantity/SONIC_order_qty_evaluator_dataset_v1",
+          "id": "cmvzyfh4t000y7h07ho46sste",
+          "itemCount": 48,
+          "updatedAt": "2026-11-03T00:33:27.677Z",
+          "path": "US/Prod/SONIC/procurement/quantity/SONIC_order_qty_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC/procurement/quantity/GOLD_quantity_evaluator_dataset",
+          "id": "cmvzyfh0p07t14h078xxw5vav",
+          "itemCount": 18,
+          "updatedAt": "2026-11-03T00:33:27.529Z",
+          "path": "US/Prod/SONIC/procurement/quantity/GOLD_quantity_evaluator_dataset"
+        },
+        {
+          "name": "SONIC/procurement/price/SONIC_unit_price_evaluator_v0",
+          "id": "cmvzyfgw707sy4h075bivdexy",
+          "itemCount": 1,
+          "updatedAt": "2026-11-03T00:33:27.367Z",
+          "path": "US/Prod/SONIC/procurement/price/SONIC_unit_price_evaluator_v0"
+        },
+        {
+          "name": "SONIC/procurement/price/SONIC_unit_price_evaluator_dataset_v1",
+          "id": "cmvzyfgrs000v7h07y7eh7omi",
+          "itemCount": 139,
+          "updatedAt": "2026-11-03T00:33:27.208Z",
+          "path": "US/Prod/SONIC/procurement/price/SONIC_unit_price_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC/procurement/price/SONIC_total_price_evaluator_dataset_v1",
+          "id": "cmvzyfgnt000s7h07jwjb6h15",
+          "itemCount": 142,
+          "updatedAt": "2026-11-03T00:33:27.065Z",
+          "path": "US/Prod/SONIC/procurement/price/SONIC_total_price_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC/procurement/price/SONIC_total_price_evaluator_dataset_v0",
+          "id": "cmvzyfgjo000p7h07jdsiwvuo",
+          "itemCount": 3,
+          "updatedAt": "2026-11-03T00:33:26.916Z",
+          "path": "US/Prod/SONIC/procurement/price/SONIC_total_price_evaluator_dataset_v0"
+        },
+        {
+          "name": "SONIC/procurement/price/GOLD_price_evaluator_dataset",
+          "id": "cmvzyfgfe000m7h07mystk0we",
+          "itemCount": 7,
+          "updatedAt": "2026-11-03T00:33:26.763Z",
+          "path": "US/Prod/SONIC/procurement/price/GOLD_price_evaluator_dataset"
+        },
+        {
+          "name": "SONIC/procurement/milestone/SONIC_milestone_evaluator_dataset_v5",
+          "id": "cmvzyfgb3000j7h07qmhu2c6m",
+          "itemCount": 204,
+          "updatedAt": "2026-11-03T00:33:26.607Z",
+          "path": "US/Prod/SONIC/procurement/milestone/SONIC_milestone_evaluator_dataset_v5"
+        },
+        {
+          "name": "SONIC/procurement/milestone/SONIC_milestone_evaluator_dataset_v2",
+          "id": "cmvzyfg74000g7h07nx8oou14",
+          "itemCount": 378,
+          "updatedAt": "2026-11-03T00:33:26.464Z",
+          "path": "US/Prod/SONIC/procurement/milestone/SONIC_milestone_evaluator_dataset_v2"
+        },
+        {
+          "name": "SONIC/procurement/milestone/SONIC_milestone_evaluator_dataset_v1",
+          "id": "cmvzyfg2q000d7h07pgnst9d0",
+          "itemCount": 51,
+          "updatedAt": "2026-11-03T00:33:26.306Z",
+          "path": "US/Prod/SONIC/procurement/milestone/SONIC_milestone_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC/procurement/milestone/Rudransh_milestone_evaluator_dataset_v0",
+          "id": "cmvzyffy807sv4h07lhg7quwp",
+          "itemCount": 59,
+          "updatedAt": "2026-11-03T00:33:26.144Z",
+          "path": "US/Prod/SONIC/procurement/milestone/Rudransh_milestone_evaluator_dataset_v0"
+        },
+        {
+          "name": "SONIC/procurement/milestone/GOLD_milestone_evaluator_dataset",
+          "id": "cmvzyffu6000a7h07k8mbm4t4",
+          "itemCount": 27,
+          "updatedAt": "2026-11-03T00:33:25.999Z",
+          "path": "US/Prod/SONIC/procurement/milestone/GOLD_milestone_evaluator_dataset"
+        },
+        {
+          "name": "SONIC/procurement/dates/SONIC_dates_evaluator_dataset_v2",
+          "id": "cmvzyffqc07ss4h07fdw7rlvy",
+          "itemCount": 157,
+          "updatedAt": "2026-11-03T00:33:25.860Z",
+          "path": "US/Prod/SONIC/procurement/dates/SONIC_dates_evaluator_dataset_v2"
+        },
+        {
+          "name": "SONIC/procurement/dates/SONIC_dates_evaluator_dataset_v1",
+          "id": "cmvzyffmg07sp4h07k2y3wey3",
+          "itemCount": 38,
+          "updatedAt": "2026-11-03T00:33:25.720Z",
+          "path": "US/Prod/SONIC/procurement/dates/SONIC_dates_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC/procurement/dates/SONIC_dates_evaluator_dataset_v0",
+          "id": "cmvzyffi600077h07tb9719iz",
+          "itemCount": 30,
+          "updatedAt": "2026-11-03T00:33:25.566Z",
+          "path": "US/Prod/SONIC/procurement/dates/SONIC_dates_evaluator_dataset_v0"
+        },
+        {
+          "name": "SONIC/procurement/dates/GOLD_dates_evaluator_dataset",
+          "id": "cmvzyffdo07sm4h074id2qa9h",
+          "itemCount": 67,
+          "updatedAt": "2026-11-03T00:33:25.404Z",
+          "path": "US/Prod/SONIC/procurement/dates/GOLD_dates_evaluator_dataset"
+        },
         {
           "name": "SONIC/ap/_folder",
           "id": "cmvzxp1kh07sg4h07xpvkwq4z",
           "itemCount": 0,
-          "updatedAt": "2026-11-03T00:12:54.450Z",
+          "updatedAt": "2026-11-03T00:27:56.203Z",
           "path": "US/Prod/SONIC/ap/_folder"
         },
         {

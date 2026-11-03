@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC/procurement/quantity/SONIC_order_qty_evaluator_dataset_v1",
+    "description": "Created by DatasetMaker",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-11-03T00:33:27.677Z",
+    "updatedAt": "2026-11-03T00:33:27.677Z",
+    "id": "cmvzyfh4t000y7h07ho46sste"
+  },
+  "itemCount": 48,
+  "exportedAt": "2026-11-03T00:34:58Z"
+}

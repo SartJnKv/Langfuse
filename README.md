@@ -39,8 +39,8 @@ The script uses only the Python standard library. A missing credential set is re
 
 ## Latest export
 
-Exported at 5:43 AM IST on 3 November 2026. US Preprod was not refreshed in this export.
+Exported at 6:04 AM IST on 3 November 2026. This refresh is US Prod. EU and US Preprod were not re-exported.
 
 - EU (`prod-agentUX`): 57 datasets, 1,034 items. `SMD/sourcing/gold_dataset` is the combined sourcing gold set (226 items). The five variable datasets are still present as empty records.
 - US Preprod (`preprod-agentux`): previous snapshot, 0 datasets.
-- US Prod (`prod-agentux` on `langfuse.kavida.ai`): 29 datasets, 2,315 items. Existing dataset names are unchanged. Empty folder datasets were added for `SONIC/sales/sales_order_extractor`, `SONIC/sales/sales_order_updater`, `SONIC/sourcing`, and `SONIC/ap`.
+- US Prod (`prod-agentux` on `langfuse.kavida.ai`): 51 datasets, 4,061 items. The 22 SONIC datasets are copied under `SONIC/procurement/...`. The original `SONIC / ...` names are still present. Empty folders remain for `SONIC/sales`, `SONIC/sourcing`, and `SONIC/ap`.

@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC/procurement/milestone/Rudransh_milestone_evaluator_dataset_v0",
+    "description": "made by Rudransh & Sarthak",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-11-03T00:33:26.144Z",
+    "updatedAt": "2026-11-03T00:33:26.144Z",
+    "id": "cmvzyffy807sv4h07lhg7quwp"
+  },
+  "itemCount": 59,
+  "exportedAt": "2026-11-03T00:34:58Z"
+}
