@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-11-02T22:27:02Z",
+  "exportedAt": "2026-11-03T00:13:21Z",
   "instances": [
     {
       "label": "EU",
@@ -9,10 +9,17 @@
         "id": "cmbultmv7000uwk07rl156gl0",
         "name": "prod-agentUX"
       },
-      "datasetCount": 56,
-      "itemCount": 1045,
+      "datasetCount": 57,
+      "itemCount": 1034,
       "removedStale": [],
       "datasets": [
+        {
+          "name": "SMD/sourcing/gold_dataset",
+          "id": "cmvzxjhgb0001vo08wfrl4tp6",
+          "itemCount": 226,
+          "updatedAt": "2026-11-03T00:08:35.099Z",
+          "path": "EU/SMD/sourcing/gold_dataset"
+        },
         {
           "name": "APOLLO_misc / Quantity / OPTIMIZER_CONTRIB_quantity_dataset",
           "id": "cmvtr5d24000nww07tdgjqaku",
@@ -121,35 +128,35 @@
         {
           "name": "SMD/sourcing/mfg_part_number/gold_dataset",
           "id": "cmv7b7cg7000kuy07bg4efw1c",
-          "itemCount": 47,
+          "itemCount": 0,
           "updatedAt": "2026-10-28T00:11:53.398Z",
           "path": "EU/SMD/sourcing/mfg_part_number/gold_dataset"
         },
         {
           "name": "SMD/sourcing/part_number/gold_dataset",
           "id": "cmv7b6tzb000huy07wpgpob18",
-          "itemCount": 47,
+          "itemCount": 0,
           "updatedAt": "2026-10-28T00:11:53.728Z",
           "path": "EU/SMD/sourcing/part_number/gold_dataset"
         },
         {
           "name": "SMD/sourcing/lead_time/gold_dataset",
           "id": "cmv7b5sdt000duy078rb6qa7n",
-          "itemCount": 46,
+          "itemCount": 0,
           "updatedAt": "2026-10-28T00:11:54.066Z",
           "path": "EU/SMD/sourcing/lead_time/gold_dataset"
         },
         {
           "name": "SMD/sourcing/unit_price/gold_dataset",
           "id": "cmv7b3r8o000auy07k04naabl",
-          "itemCount": 50,
+          "itemCount": 0,
           "updatedAt": "2026-10-28T00:11:54.400Z",
           "path": "EU/SMD/sourcing/unit_price/gold_dataset"
         },
         {
           "name": "SMD/sourcing/quantity/gold_dataset",
           "id": "cmv79sir80001uy07egk7sevo",
-          "itemCount": 47,
+          "itemCount": 0,
           "updatedAt": "2026-10-28T00:11:54.732Z",
           "path": "EU/SMD/sourcing/quantity/gold_dataset"
         },
@@ -422,15 +429,220 @@
     },
     {
       "label": "US Prod",
-      "ok": false,
-      "datasetCount": 0,
-      "itemCount": 0,
-      "status": {
-        "instance": "US Prod",
-        "exportedAt": "2026-11-02T22:27:02Z",
-        "status": "not_exported",
-        "reason": "Missing environment variables: US_PROD_LANGFUSE_BASE_URL, US_PROD_LANGFUSE_PUBLIC_KEY, US_PROD_LANGFUSE_SECRET_KEY"
-      }
+      "ok": true,
+      "host": "langfuse.kavida.ai",
+      "project": {
+        "id": "clz8g147n00071174ghdnxsdx",
+        "name": "prod-agentux"
+      },
+      "datasetCount": 29,
+      "itemCount": 2315,
+      "removedStale": [],
+      "datasets": [
+        {
+          "name": "SONIC/ap/_folder",
+          "id": "cmvzxp1kh07sg4h07xpvkwq4z",
+          "itemCount": 0,
+          "updatedAt": "2026-11-03T00:12:54.450Z",
+          "path": "US/Prod/SONIC/ap/_folder"
+        },
+        {
+          "name": "SONIC/sourcing/_folder",
+          "id": "cmvzxp1ga00047h07km78hsyj",
+          "itemCount": 0,
+          "updatedAt": "2026-11-03T00:12:54.299Z",
+          "path": "US/Prod/SONIC/sourcing/_folder"
+        },
+        {
+          "name": "SONIC/sales/sales_order_updater/_folder",
+          "id": "cmvzxp1bl00017h07dz7279tc",
+          "itemCount": 0,
+          "updatedAt": "2026-11-03T00:12:54.129Z",
+          "path": "US/Prod/SONIC/sales/sales_order_updater/_folder"
+        },
+        {
+          "name": "SONIC/sales/sales_order_extractor/_folder",
+          "id": "cmvzxp12g07sd4h078mpyxx7c",
+          "itemCount": 0,
+          "updatedAt": "2026-11-03T00:12:53.801Z",
+          "path": "US/Prod/SONIC/sales/sales_order_extractor/_folder"
+        },
+        {
+          "name": "match_text_to_line_items/gemini25pro_baseline_v1",
+          "id": "cms8nycng00015908ogwj0hev",
+          "itemCount": 227,
+          "updatedAt": "2026-07-31T08:57:17.673Z",
+          "path": "US/Prod/match_text_to_line_items/gemini25pro_baseline_v1"
+        },
+        {
+          "name": "context_builder/gemini25pro_baseline_v1",
+          "id": "cms63ltb100419007ox1iwuva",
+          "itemCount": 332,
+          "updatedAt": "2026-07-29T16:10:49.646Z",
+          "path": "US/Prod/context_builder/gemini25pro_baseline_v1"
+        },
+        {
+          "name": "SONIC / Quantity / GOLD_quantity_evaluator_dataset",
+          "id": "cmj0kv8pn00297r08qonnynm3",
+          "itemCount": 18,
+          "updatedAt": "2025-12-10T22:25:24.443Z",
+          "path": "US/Prod/SONIC/Quantity/GOLD_quantity_evaluator_dataset"
+        },
+        {
+          "name": "SONIC / Price / GOLD_price_evaluator_dataset",
+          "id": "cmj0kujax00267r08aaxfimal",
+          "itemCount": 7,
+          "updatedAt": "2025-12-10T22:26:07.234Z",
+          "path": "US/Prod/SONIC/Price/GOLD_price_evaluator_dataset"
+        },
+        {
+          "name": "SONIC / Tracking / GOLD_tracking_evaluator_dataset",
+          "id": "cmj0kt08g001h6h09h9riplkn",
+          "itemCount": 8,
+          "updatedAt": "2025-12-10T22:23:40.144Z",
+          "path": "US/Prod/SONIC/Tracking/GOLD_tracking_evaluator_dataset"
+        },
+        {
+          "name": "SONIC / Milestone / GOLD_milestone_evaluator_dataset",
+          "id": "cmj0kgh3j00227r08hgjylbji",
+          "itemCount": 27,
+          "updatedAt": "2025-12-10T22:21:24.406Z",
+          "path": "US/Prod/SONIC/Milestone/GOLD_milestone_evaluator_dataset"
+        },
+        {
+          "name": "SONIC / Dates / GOLD_dates_evaluator_dataset",
+          "id": "cmiqhekkx000l7r08jpq3166h",
+          "itemCount": 67,
+          "updatedAt": "2025-12-10T22:25:48.082Z",
+          "path": "US/Prod/SONIC/Dates/GOLD_dates_evaluator_dataset"
+        },
+        {
+          "name": "SONIC / Split / SONIC_split_evaluator_dataset_v0",
+          "id": "cmifz5lqi000b6m07orozyozm",
+          "itemCount": 1,
+          "updatedAt": "2025-12-03T21:13:52.035Z",
+          "path": "US/Prod/SONIC/Split/SONIC_split_evaluator_dataset_v0"
+        },
+        {
+          "name": "SONIC / Milestone / SONIC_milestone_evaluator_dataset_v2",
+          "id": "cmgj94h6100013n07co77vjuc",
+          "itemCount": 378,
+          "updatedAt": "2025-12-03T21:11:48.619Z",
+          "path": "US/Prod/SONIC/Milestone/SONIC_milestone_evaluator_dataset_v2"
+        },
+        {
+          "name": "SONIC / Dates / SONIC_dates_evaluator_dataset_v2",
+          "id": "cmg58ooxa004i3n07zxfyq00k",
+          "itemCount": 157,
+          "updatedAt": "2025-12-03T21:13:40.417Z",
+          "path": "US/Prod/SONIC/Dates/SONIC_dates_evaluator_dataset_v2"
+        },
+        {
+          "name": "SONIC / Tracking / SONIC_shipment_tracking_evaluator_dataset_v1",
+          "id": "cmg136n0t00t624073sl4fu8e",
+          "itemCount": 202,
+          "updatedAt": "2025-12-03T21:13:25.259Z",
+          "path": "US/Prod/SONIC/Tracking/SONIC_shipment_tracking_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC / Price / SONIC_total_price_evaluator_dataset_v1",
+          "id": "cmg0k7p72008k24072p2h4hu9",
+          "itemCount": 142,
+          "updatedAt": "2025-12-03T21:12:55.433Z",
+          "path": "US/Prod/SONIC/Price/SONIC_total_price_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC / Price / SONIC_unit_price_evaluator_dataset_v1",
+          "id": "cmg0jw880004m24079nopbq5u",
+          "itemCount": 139,
+          "updatedAt": "2025-12-03T21:12:19.746Z",
+          "path": "US/Prod/SONIC/Price/SONIC_unit_price_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC / Quantity / SONIC_order_qty_evaluator_dataset_v1",
+          "id": "cmg0ezrmq002z2407y83rbcvz",
+          "itemCount": 48,
+          "updatedAt": "2025-12-03T21:12:44.198Z",
+          "path": "US/Prod/SONIC/Quantity/SONIC_order_qty_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC / Dates / SONIC_dates_evaluator_dataset_v1",
+          "id": "cmfz3p7m2001m2407ndhbyfzg",
+          "itemCount": 38,
+          "updatedAt": "2025-12-03T21:11:10.191Z",
+          "path": "US/Prod/SONIC/Dates/SONIC_dates_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC / Milestone / SONIC_milestone_evaluator_dataset_v1",
+          "id": "cmfnmh7xt004f2e07jkew7mav",
+          "itemCount": 51,
+          "updatedAt": "2025-12-03T20:53:11.320Z",
+          "path": "US/Prod/SONIC/Milestone/SONIC_milestone_evaluator_dataset_v1"
+        },
+        {
+          "name": "SONIC / Milestone / SONIC_milestone_evaluator_dataset_v5",
+          "id": "cmeyf8crv043i1d072syqyn1l",
+          "itemCount": 204,
+          "updatedAt": "2025-12-03T20:52:54.367Z",
+          "path": "US/Prod/SONIC/Milestone/SONIC_milestone_evaluator_dataset_v5"
+        },
+        {
+          "name": "SONIC / Dates / SONIC_dates_evaluator_dataset_v0",
+          "id": "cmeldlhdd00453e07kkm74jvp",
+          "itemCount": 30,
+          "updatedAt": "2025-12-03T20:53:59.470Z",
+          "path": "US/Prod/SONIC/Dates/SONIC_dates_evaluator_dataset_v0"
+        },
+        {
+          "name": "SONIC / Quantity / SONIC_quantity_evaluator_dataset_v0",
+          "id": "cmeldl07x00423e07k6la8mu4",
+          "itemCount": 27,
+          "updatedAt": "2025-12-03T21:07:43.779Z",
+          "path": "US/Prod/SONIC/Quantity/SONIC_quantity_evaluator_dataset_v0"
+        },
+        {
+          "name": "SONIC / Tracking / SONIC_shipment_tracking_evaluator_v0",
+          "id": "cmeldkftk003z3e07vyc86e57",
+          "itemCount": 17,
+          "updatedAt": "2025-12-03T21:13:08.862Z",
+          "path": "US/Prod/SONIC/Tracking/SONIC_shipment_tracking_evaluator_v0"
+        },
+        {
+          "name": "SONIC / Price / SONIC_total_price_evaluator_dataset_v0",
+          "id": "cmeldjc3z003w3e07oxo8xk0h",
+          "itemCount": 3,
+          "updatedAt": "2025-12-03T21:10:40.899Z",
+          "path": "US/Prod/SONIC/Price/SONIC_total_price_evaluator_dataset_v0"
+        },
+        {
+          "name": "SONIC / Price / SONIC_unit_price_evaluator_v0",
+          "id": "cmeldim1w003t3e0726m4x4hm",
+          "itemCount": 1,
+          "updatedAt": "2025-12-03T21:11:59.831Z",
+          "path": "US/Prod/SONIC/Price/SONIC_unit_price_evaluator_v0"
+        },
+        {
+          "name": "SONIC / Milestone / Rudransh_milestone_evaluator_dataset_v0",
+          "id": "cmelc56m3000g3e071t1ht3b3",
+          "itemCount": 59,
+          "updatedAt": "2025-12-03T20:53:38.708Z",
+          "path": "US/Prod/SONIC/Milestone/Rudransh_milestone_evaluator_dataset_v0"
+        },
+        {
+          "name": "capital_cities",
+          "id": "cmejg70c7000s2z085ga7s0gs",
+          "itemCount": 10,
+          "updatedAt": "2025-08-20T04:03:41.048Z",
+          "path": "US/Prod/capital_cities"
+        },
+        {
+          "name": "SONIC / Sarthak-First-Test",
+          "id": "cmeabvhv300012z080a8c39nm",
+          "itemCount": 122,
+          "updatedAt": "2025-12-03T20:52:21.402Z",
+          "path": "US/Prod/SONIC/Sarthak-First-Test"
+        }
+      ]
     }
   ]
 }

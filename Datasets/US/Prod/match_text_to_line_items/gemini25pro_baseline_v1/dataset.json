@@ -1,0 +1,25 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "match_text_to_line_items/gemini25pro_baseline_v1",
+    "description": "Match Text → Line Items baseline from gemini-2.5-pro production traces (user JSON input only; prompt via LineItemMatcherPromptStrategy)",
+    "metadata": {
+      "node": "match_text_to_line_items",
+      "ticket": "KAVC-2071",
+      "baseline_model": "gemini/gemini-2.5-pro"
+    },
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-07-31T08:11:18.789Z",
+    "updatedAt": "2026-07-31T08:57:17.673Z",
+    "id": "cms8nycng00015908ogwj0hev"
+  },
+  "itemCount": 227,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}

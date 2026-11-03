@@ -1,0 +1,32 @@
+{
+  "instance": "EU",
+  "host": "eu-langfuse.kavida.ai",
+  "project": {
+    "id": "cmbultmv7000uwk07rl156gl0",
+    "name": "prod-agentUX"
+  },
+  "dataset": {
+    "name": "SMD/sourcing/gold_dataset",
+    "description": "SMD sourcing gold set. One quotation per item, combining the quantity, unit price, lead time, part number, and manufacturer part number gold sets.",
+    "metadata": {
+      "agent": "sourcing",
+      "split": "gold",
+      "client": "SMD",
+      "variables": [
+        "quantity",
+        "unit_price",
+        "lead_time",
+        "part_number",
+        "mfg_part_number"
+      ]
+    },
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "cmbultmv7000uwk07rl156gl0",
+    "createdAt": "2026-11-03T00:08:35.099Z",
+    "updatedAt": "2026-11-03T00:08:35.099Z",
+    "id": "cmvzxjhgb0001vo08wfrl4tp6"
+  },
+  "itemCount": 226,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}

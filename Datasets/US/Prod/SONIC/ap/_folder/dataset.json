@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC/ap/_folder",
+    "description": "Placeholder so this empty folder is visible. Safe to delete once a real dataset is added here.",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-11-03T00:12:54.450Z",
+    "updatedAt": "2026-11-03T00:12:54.450Z",
+    "id": "cmvzxp1kh07sg4h07xpvkwq4z"
+  },
+  "itemCount": 0,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}

@@ -105,6 +105,30 @@ def list_all(client: Client, path: str, params: dict) -> list:
     return rows
 
 
+def configured_base_urls() -> list[str]:
+    values = []
+    for spec in INSTANCES:
+        value = os.environ.get(spec["base_env"])
+        if value:
+            values.append(value.rstrip("/"))
+    return values
+
+
+def redact_base_urls(value):
+    """Replace configured base URLs with their host so backups do not store them."""
+    if isinstance(value, str):
+        for base_url in configured_base_urls():
+            if base_url and base_url in value:
+                host = urllib.parse.urlparse(base_url).hostname or base_url
+                value = value.replace(base_url, host)
+        return value
+    if isinstance(value, dict):
+        return {key: redact_base_urls(child) for key, child in value.items()}
+    if isinstance(value, list):
+        return [redact_base_urls(child) for child in value]
+    return value
+
+
 def strip_media(item: dict) -> None:
     """Drop file payloads and download URLs. Dataset text stays; binaries do not."""
     for reference in item.get("mediaReferences") or []:
@@ -113,7 +137,9 @@ def strip_media(item: dict) -> None:
             media.pop("url", None)
             media.pop("localFile", None)
     for field in ("input", "expectedOutput", "metadata"):
-        _strip_embedded_files(item.get(field))
+        if field in item:
+            _strip_embedded_files(item.get(field))
+            item[field] = redact_base_urls(item.get(field))
 
 
 def _strip_embedded_files(value):

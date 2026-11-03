@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC / Sarthak-First-Test",
+    "description": "made with malice, by Sarthak",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2025-08-13T18:52:49.840Z",
+    "updatedAt": "2025-12-03T20:52:21.402Z",
+    "id": "cmeabvhv300012z080a8c39nm"
+  },
+  "itemCount": 122,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}

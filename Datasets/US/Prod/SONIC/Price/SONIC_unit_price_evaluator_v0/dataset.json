@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC / Price / SONIC_unit_price_evaluator_v0",
+    "description": "made by Sarthak & Rudransh",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2025-08-21T12:24:15.909Z",
+    "updatedAt": "2025-12-03T21:11:59.831Z",
+    "id": "cmeldim1w003t3e0726m4x4hm"
+  },
+  "itemCount": 1,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}

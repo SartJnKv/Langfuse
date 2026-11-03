@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC / Milestone / SONIC_milestone_evaluator_dataset_v1",
+    "description": "Created by DatasetMaker",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2025-09-17T06:50:22.193Z",
+    "updatedAt": "2025-12-03T20:53:11.320Z",
+    "id": "cmfnmh7xt004f2e07jkew7mav"
+  },
+  "itemCount": 51,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}
