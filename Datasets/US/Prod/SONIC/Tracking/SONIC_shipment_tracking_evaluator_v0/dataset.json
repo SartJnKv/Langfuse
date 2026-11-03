@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC / Tracking / SONIC_shipment_tracking_evaluator_v0",
+    "description": "made by Rudransh & Sarthak",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2025-08-21T12:25:41.145Z",
+    "updatedAt": "2025-12-03T21:13:08.862Z",
+    "id": "cmeldkftk003z3e07vyc86e57"
+  },
+  "itemCount": 17,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}

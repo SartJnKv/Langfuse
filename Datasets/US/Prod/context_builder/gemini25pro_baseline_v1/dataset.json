@@ -1,0 +1,25 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "context_builder/gemini25pro_baseline_v1",
+    "description": "Context Builder baseline from gemini-2.5-pro production traces (user multimodal input only; prompt via ContextBuilderPromptStrategy)",
+    "metadata": {
+      "node": "process_email",
+      "ticket": "KAVC-2070",
+      "baseline_model": "gemini/gemini-2.5-pro"
+    },
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-07-29T13:06:09.182Z",
+    "updatedAt": "2026-07-29T16:10:49.646Z",
+    "id": "cms63ltb100419007ox1iwuva"
+  },
+  "itemCount": 332,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}

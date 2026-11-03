@@ -1,6 +1,0 @@
-{
-  "instance": "US Prod",
-  "exportedAt": "2026-11-02T22:27:02Z",
-  "status": "not_exported",
-  "reason": "Missing environment variables: US_PROD_LANGFUSE_BASE_URL, US_PROD_LANGFUSE_PUBLIC_KEY, US_PROD_LANGFUSE_SECRET_KEY"
-}

@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "capital_cities",
+    "description": null,
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2025-08-20T04:03:41.048Z",
+    "updatedAt": "2025-08-20T04:03:41.048Z",
+    "id": "cmejg70c7000s2z085ga7s0gs"
+  },
+  "itemCount": 10,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}

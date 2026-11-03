@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC / Tracking / GOLD_tracking_evaluator_dataset",
+    "description": "curated for testing by Sarthak.",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2025-12-10T22:23:40.144Z",
+    "updatedAt": "2025-12-10T22:23:40.144Z",
+    "id": "cmj0kt08g001h6h09h9riplkn"
+  },
+  "itemCount": 8,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}

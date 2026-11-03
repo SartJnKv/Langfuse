@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC / Split / SONIC_split_evaluator_dataset_v0",
+    "description": "made by Sarthak",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2025-11-26T12:22:12.810Z",
+    "updatedAt": "2025-12-03T21:13:52.035Z",
+    "id": "cmifz5lqi000b6m07orozyozm"
+  },
+  "itemCount": 1,
+  "exportedAt": "2026-11-03T00:13:21Z"
+}
