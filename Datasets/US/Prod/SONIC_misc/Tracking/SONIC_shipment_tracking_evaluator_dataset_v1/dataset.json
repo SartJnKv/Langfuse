@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC_misc / Tracking / SONIC_shipment_tracking_evaluator_dataset_v1",
+    "description": "Created by DatasetMaker",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-11-03T00:43:15.286Z",
+    "updatedAt": "2026-11-03T00:43:15.286Z",
+    "id": "cmvzys2ja01hp7h07ghsh53fr"
+  },
+  "itemCount": 202,
+  "exportedAt": "2026-11-03T00:48:30Z"
+}

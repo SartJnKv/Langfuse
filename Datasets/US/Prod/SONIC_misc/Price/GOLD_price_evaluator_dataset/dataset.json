@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC_misc / Price / GOLD_price_evaluator_dataset",
+    "description": "curated for testing by Sarthak.",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-11-03T00:43:13.680Z",
+    "updatedAt": "2026-11-03T00:43:13.680Z",
+    "id": "cmvzys1ao01gm7h07q7tczcuh"
+  },
+  "itemCount": 7,
+  "exportedAt": "2026-11-03T00:48:30Z"
+}

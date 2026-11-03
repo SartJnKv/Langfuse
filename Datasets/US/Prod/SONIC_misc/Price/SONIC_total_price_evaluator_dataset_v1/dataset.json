@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC_misc / Price / SONIC_total_price_evaluator_dataset_v1",
+    "description": "Created by DatasetMaker",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-11-03T00:43:13.987Z",
+    "updatedAt": "2026-11-03T00:43:13.987Z",
+    "id": "cmvzys1j701gy7h072hnb80b6"
+  },
+  "itemCount": 142,
+  "exportedAt": "2026-11-03T00:48:30Z"
+}

@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC_new/sales/sales_order_updater/_folder",
+    "description": "Placeholder so this empty folder is visible. Safe to delete once a real dataset is added here.",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-11-03T00:45:09.025Z",
+    "updatedAt": "2026-11-03T00:45:09.025Z",
+    "id": "cmvzyuiap02nu7h07u99cu40s"
+  },
+  "itemCount": 0,
+  "exportedAt": "2026-11-03T00:48:30Z"
+}

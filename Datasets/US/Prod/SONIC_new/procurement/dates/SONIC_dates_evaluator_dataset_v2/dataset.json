@@ -1,0 +1,21 @@
+{
+  "instance": "US Prod",
+  "host": "langfuse.kavida.ai",
+  "project": {
+    "id": "clz8g147n00071174ghdnxsdx",
+    "name": "prod-agentux"
+  },
+  "dataset": {
+    "name": "SONIC_new/procurement/dates/SONIC_dates_evaluator_dataset_v2",
+    "description": "Created by DatasetMaker",
+    "metadata": null,
+    "inputSchema": null,
+    "expectedOutputSchema": null,
+    "projectId": "clz8g147n00071174ghdnxsdx",
+    "createdAt": "2026-11-03T00:45:11.193Z",
+    "updatedAt": "2026-11-03T00:45:11.193Z",
+    "id": "cmvzyuk3v02p77h07aqu9psx1"
+  },
+  "itemCount": 157,
+  "exportedAt": "2026-11-03T00:48:30Z"
+}
