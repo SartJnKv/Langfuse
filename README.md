@@ -39,7 +39,7 @@ The script uses only the Python standard library. A missing credential set is re
 
 ## Latest export
 
-Exported at 6:04 AM IST on 3 November 2026. This refresh is US Prod. EU and US Preprod were not re-exported.
+Exported at 6:08 AM IST on 3 November 2026. This refresh is US Prod. EU and US Preprod were not re-exported.
 
 - EU (`prod-agentUX`): 57 datasets, 1,034 items. `SMD/sourcing/gold_dataset` is the combined sourcing gold set (226 items). The five variable datasets are still present as empty records.
 - US Preprod (`preprod-agentux`): previous snapshot, 0 datasets.
